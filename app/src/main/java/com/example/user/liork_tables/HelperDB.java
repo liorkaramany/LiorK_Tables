@@ -12,8 +12,8 @@ public class HelperDB extends SQLiteOpenHelper {
     public static final int DATABASE_VERSION=1;
     public static final String DATABASE_NAME="students.db";
 
-    public HelperDB(Context context, String name, SQLiteDatabase.CursorFactory factory, int version) {
-        super(context, DATABASE_NAME, factory, DATABASE_VERSION);
+    public HelperDB(Context context) {
+        super(context, DATABASE_NAME, null, DATABASE_VERSION);
     }
 
 
