@@ -3,7 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/LiorK_Tables.iml" filepath="$PROJECT_DIR$/LiorK_Tables.iml" />
+      <module fileurl="file://C:\Users\Lior\Desktop\LiorK_Tables\LiorK_Tables.iml" filepath="C:\Users\Lior\Desktop\LiorK_Tables\LiorK_Tables.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://C:\Users\Lior\Desktop\LiorK_Tables\app\app.iml" filepath="C:\Users\Lior\Desktop\LiorK_Tables\app\app.iml" />
     </modules>
   </component>
 </project>

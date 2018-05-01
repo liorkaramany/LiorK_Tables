@@ -9,8 +9,10 @@ import android.database.sqlite.SQLiteOpenHelper;
  */
 
 public class Students {
-    private String login;
-    private String name;
-    private String lgroup;
-    private String phone;
+    public static final String TABLE_STUDENTS="Students";
+    public static final String KEY_ID="_id";
+    public static final String NAME="Name";
+    public static final String ADDRESS="Address";
+    public static final String CLASS="Class";
+    public static final String PHONE="Phone";
 }
