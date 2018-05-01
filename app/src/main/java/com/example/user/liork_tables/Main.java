@@ -1,6 +1,7 @@
 package com.example.user.liork_tables;
 
 import android.content.ContentValues;
+import android.content.Intent;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 import android.support.v7.app.AppCompatActivity;
@@ -60,7 +61,7 @@ public class Main extends AppCompatActivity {
 
             cv=new ContentValues();
 
-            cv.put(Students.NAME, et[0].getText().toString());
+            cv.put(Grades.NAME, et[0].getText().toString());
             cv.put(Grades.FIRST, et[4].getText().toString());
             cv.put(Grades.SECOND, et[5].getText().toString());
             cv.put(Grades.THIRD, et[6].getText().toString());
@@ -73,5 +74,7 @@ public class Main extends AppCompatActivity {
     }
 
     public void next(View view) {
+        Intent t=new Intent(this, Table.class);
+        startActivity(t);
     }
 }
