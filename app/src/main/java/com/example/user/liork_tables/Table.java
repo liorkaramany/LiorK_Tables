@@ -57,7 +57,7 @@ public class Table extends AppCompatActivity {
             classs=c.getString(col4);
             phone=c.getString(col5);
 
-            String tmp=name+","+address+","+classs+","+address+","+phone;
+            String tmp=name+","+address+","+classs+","+phone;
             tbl1.add(tmp);
 
             c.moveToNext();

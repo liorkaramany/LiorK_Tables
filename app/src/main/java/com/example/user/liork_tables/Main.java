@@ -70,6 +70,8 @@ public class Main extends AppCompatActivity {
             db.insert(Grades.TABLE_GRADES, null, cv);
 
             db.close();
+
+            Toast.makeText(this, "Your have successfully added the information.", Toast.LENGTH_SHORT).show();
         }
     }
 
